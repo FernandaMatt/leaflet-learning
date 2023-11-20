@@ -13,3 +13,14 @@ var niltao = L.circle([-22.8933, -43.2925], {
 	fillOpacity: 0.7,
 	radius: 250
 }).addTo(map);
+
+var campus42 = L.polygon([
+	[-22.911108, -43.197522],
+	[-22.910724, -43.198238],
+	[-22.909572, -43.198326],
+	[-22.909572, -43.197940]
+	]).addTo(map);
+
+home.bindPopup("Home").openPopup();
+niltao.bindPopup("Second home.");
+campus42.bindPopup("42 Rio campus");
